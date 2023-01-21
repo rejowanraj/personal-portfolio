@@ -1,0 +1,205 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.headter-title h2 {
+font-size: 25px;
+}
+.headter-title {
+padding: 166px 0 0px 0;
+color: #fff;
+}
+.headter-title span.type {
+font-size: 20px;
+}
+a.btn.btn-primary.scroll-link {
+font-size: 12px;
+}
+header{
+height: 500px;
+}
+/*nav*/
+.menu-list li {
+float: none;
+}
+.menu-list {
+padding: 0;
+display: none;
+float: none;
+}
+.menu-icon {
+display: block;
+}
+.logo {
+float: none;
+}
+.menu-icon {position: absolute;z-index: 99999;right: 0;top: 0px;}
+.logo {
+padding-top: 4px;
+}
+.menu-list li a{
+padding: 0;
+}
+img.about-pic{
+width: 100%;
+}
+/*SERVICE SECTION*/
+.service-title.pt-5.pb-5 {
+margin-bottom: 30px;
+}
+.service-main {
+margin-bottom: 133px;
+}
+.col-md-8.offset-2 {margin-left: 0;}
+.footer-copy p {
+text-align: center;
+}
+.mywork-title h2 {
+font-size: 20px;
+}
+.mywork-title h2::before{
+border-width: 0px 0 15px 15px;
+top: 4px;
+left: -20px;
+}
+.mywork-title h2::after{
+border-width: 0 15px 15px 0;
+top: 4px;
+right: -20px;
+}
+.service-title h2 {
+font-size: 20px;
+}
+.service-title h2::before{
+border-width: 0 0 15px 15px;
+left: -20px;
+top: 4px;
+}
+.service-title h2::after{
+border-width: 0 15px 15px 0;
+right: -20px;
+top: 4px;
+}
+.about-content h2 {
+font-size: 20px;
+}
+.about-content h4 {
+font-size: 18px;
+}
+.client-title h2 {
+font-size: 20px;
+}
+.client-title h2::before{
+border-width: 0 0 15px 15px;
+top: 4px;
+left: -20px;
+}
+.client-title h2::after{
+border-width: 0 15px 15px 0;
+top: 4px;
+right: -20px;
+}
+.contact-form-title h2 {
+font-size: 20px;
+}
+.contact-form-content.text-center h4 {
+font-size: 25px;
+}
+.contact-form-title h2::before{
+border-width: 0 0 15px 15px;
+top: 4px;
+left: -20px;
+}
+.contact-form-title h2::after{
+border-width: 0 15px 15px 0;
+top: 4px;
+right: -20px;
+}
+li.nav-item.nav-link {
+padding: 4px 4px;
+}
+.nav.work-nav-list li{
+font-size: 11px;
+}
+ul.nav.work-nav-list.justify-content-center.pt-5.pb-5 {
+padding: 20px 0!important;
+}
+section#portfolio {
+padding: 12px 0!important;
+}
+section#contact {
+padding: 12px 0!important;
+}
+button.btn.btn_custom.w-50{
+width: 50%!important;
+}
+button.btn.btn_custom.w-50:hover{
+width: 60%!important;
+}
+button.btn.btn_custom.w-50{
+padding: 10px 30px;
+}
+.hire-title h2 {
+font-size: 17px;
+}
+.hire-title p {
+font-size: 11px;
+}
+a.btn.btn-danger.hire-btn {
+font-size: 16px;
+}
+.client-title.pt-5.pb-5 {
+padding: 0px 0!important;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*nav bar*/
+.menu-list li {
+float: none;
+}
+.menu-list {
+padding: 0;
+display: none;
+float: none;
+}
+.menu-icon {
+display: block;
+}
+.logo {
+float: none;
+}
+.menu-icon {position: absolute;z-index: 99999;right: 0;top: 0px;}
+.logo {
+padding-top: 4px;
+}
+.menu-list li a{
+padding: 0;
+}
+img.about-pic{
+width: auto;
+}
+.col-md-8.offset-2 {margin-left: 0;}
+.footer-copy p {
+text-align: center;
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.photo-text-social {
+margin-top: 50%;
+}
+img.about-pic{
+width: auto;
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+img.about-pic {
+width: auto;
+}
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+img.about-pic {
+width: auto;
+}
+}
